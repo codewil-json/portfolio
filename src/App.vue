@@ -4,6 +4,7 @@
   <AboutSection />
   <SkillsSection />
   <ServicesSection />
+  <ProcessTimeLine />
 </template>
 
 <script>
@@ -12,6 +13,7 @@ import HeroSection from './components/HeroSection.vue'
 import AboutSection from './components/AboutSection.vue'
 import SkillsSection from './components/SkillsSection.vue'
 import ServicesSection from './components/ServicesSection.vue'
+import ProcessTimeLine from './components/ProcessTimeLine.vue'
 
 export default {
   name: 'App',
@@ -20,7 +22,8 @@ export default {
     HeroSection,
     AboutSection,
     SkillsSection,
-    ServicesSection
+    ServicesSection,
+    ProcessTimeLine
   }
 }
 </script>

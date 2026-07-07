@@ -99,9 +99,10 @@ const services = [
 }
 
 .section-header h2 {
-  font-size: clamp(2rem, 4vw, 2.9rem);
+  font-size: 32px;
   line-height: 1.2;
   font-weight: 700;
+  letter-spacing: -0.64px;
   color: #111827;
 }
 

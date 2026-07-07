@@ -113,7 +113,8 @@ const stacks = [
 }
 
 .section-header h2 {
-  font-size: clamp(2rem, 4vw, 2.8rem);
+  font-size: 32px;
+  letter-spacing: -0.64px;
   font-weight: 700;
   color: #111827;
 }

@@ -128,6 +128,7 @@ header {
       width: 100%;
       height: 100vh;
       position: fixed;
+      z-index: 9998;
       top: 0;
       left: -100%;
       background: #fff;
