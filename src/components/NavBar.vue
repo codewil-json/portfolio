@@ -61,11 +61,11 @@ header {
     .codewil-navigation-link {
       font-size: 1rem;
       font-weight: 500;
-      color: #666666;
+      color: #4B5563;
       transition: color 0.3s ease-in-out;
 
       &:hover {
-        color: #fa2828;
+        color: #000000;
       }
     }
   }
@@ -78,7 +78,7 @@ header {
     transition: all 0.3s ease-in-out;
 
     &:hover {
-      color: #fa2828;
+      color: #111827;
     }
   }
 }
@@ -127,7 +127,7 @@ header {
       gap: 1rem;
       width: 100%;
       height: 100vh;
-      position: absolute;
+      position: fixed;
       top: 0;
       left: -100%;
       background: #fff;
@@ -144,6 +144,7 @@ header {
       position: absolute;
       top: 1rem;
       right: 1rem;
+      z-index: -1 !important;
     }
   }
 }
@@ -154,5 +155,9 @@ header {
       display: none;
     }
   }
+}
+
+.toggle-nav.active {
+  position: fixed !important;
 }
 </style>

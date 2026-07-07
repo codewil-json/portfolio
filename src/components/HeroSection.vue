@@ -99,7 +99,7 @@ export default {
           padding: 16px 32px;
           text-decoration: none;
           color: #fff;
-          background: #000;
+          background: #000000;
           border-radius: 4px;
           transition: all .3s ease;
 
@@ -109,7 +109,7 @@ export default {
           }
 
           &:hover {
-            box-shadow: 0 4px 6px rgba(0,0,0,.1);
+            background: #1F2937;
           }
         }
 
@@ -117,7 +117,7 @@ export default {
           padding: 16px 32px;
           text-decoration: none;
           color: #000;
-          background: #fff;
+          background: #FFFFFF;
           border: 1px solid #E5E7EB;
           border-radius: 4px;
           transition: .3s;
@@ -128,8 +128,7 @@ export default {
           }
 
           &:hover {
-            background: #000;
-            color: #fff;
+            background: #F3F4F6;
           }
         }
       }
@@ -143,7 +142,7 @@ export default {
           display: flex;
           align-items: center;
           text-decoration: none;
-          color: #000;
+          color: #111827;
           font-weight: 400;
           transition: color .3s;
 
@@ -153,7 +152,7 @@ export default {
           }
 
           &:hover {
-            color: #007BFF;
+            color: #374151;
           }
         }
       }
