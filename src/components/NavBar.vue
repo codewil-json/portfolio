@@ -15,8 +15,8 @@
           <router-link to="/" class="codewil-navigation-link">Projects</router-link>
           <router-link to="/" class="codewil-navigation-link">Contact</router-link>
         </nav>
-        <button class="theme">
-          <i class="bi bi-moon"></i>
+        <button class="theme" @click="toggleTheme">
+          <i :class="isDark ? 'bi bi-moon' : 'bi bi-sun'"></i>
         </button>
       </div>
     </div>
@@ -26,9 +26,33 @@
 <script>
 export default {
   name: 'NavBar',
+
   data () {
     return {
-      menuOpen: false
+      menuOpen: false,
+      isDark: false
+    }
+  },
+
+  mounted () {
+    const theme = localStorage.getItem('theme')
+
+    if (theme === 'dark') {
+      this.isDark = true
+      document.body.classList.add('dark')
+    }
+  },
+
+  methods: {
+    toggleTheme () {
+      this.isDark = !this.isDark
+
+      document.body.classList.toggle('dark')
+
+      localStorage.setItem(
+        'theme',
+        this.isDark ? 'dark' : 'light'
+      )
     }
   }
 }

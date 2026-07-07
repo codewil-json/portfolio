@@ -1,0 +1,23 @@
+:root {
+  --bg: #ffffff;
+  --bg-secondary: #f9fafb;
+  --text: #111827;
+  --text-secondary: #4b5563;
+  --border: #e5e7eb;
+}
+
+.dark {
+  --bg: #111827;
+  --bg-secondary: #1f2937;
+  --text: #f9fafb;
+  --text-secondary: #d1d5db;
+  --border: #374151;
+}
+
+// body {
+//   background: var(--bg) !important;
+//   color: var(--text);
+//   transition:
+//     background .3s ease,
+//     color .3s ease;
+// }

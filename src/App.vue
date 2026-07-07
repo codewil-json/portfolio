@@ -5,6 +5,9 @@
   <SkillsSection />
   <ServicesSection />
   <ProcessTimeLine />
+  <FeaturedProjects />
+  <ContactSection />
+  <FooterSection />
 </template>
 
 <script>
@@ -14,6 +17,9 @@ import AboutSection from './components/AboutSection.vue'
 import SkillsSection from './components/SkillsSection.vue'
 import ServicesSection from './components/ServicesSection.vue'
 import ProcessTimeLine from './components/ProcessTimeLine.vue'
+import FeaturedProjects from './components/FeaturedProjects.vue'
+import ContactSection from './components/ContactSection.vue'
+import FooterSection from './components/FooterSection.vue'
 
 export default {
   name: 'App',
@@ -23,7 +29,10 @@ export default {
     AboutSection,
     SkillsSection,
     ServicesSection,
-    ProcessTimeLine
+    ProcessTimeLine,
+    FeaturedProjects,
+    ContactSection,
+    FooterSection
   }
 }
 </script>
