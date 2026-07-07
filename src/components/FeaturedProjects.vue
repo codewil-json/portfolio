@@ -1,5 +1,5 @@
 <template>
-  <section class="featured-projects">
+  <section class="featured-projects" id="projects">
     <div class="container">
       <span class="subtitle">PORTFÓLIO</span>
       <h2>Projetos em Destaque</h2>
