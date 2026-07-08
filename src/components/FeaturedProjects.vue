@@ -58,64 +58,71 @@
 </template>
 
 <script setup>
+import hub from '@/assets/hub.png'
+import landing from '@/assets/landing.png'
+import links from '@/assets/links.png'
+import resultados from '@/assets/resultados.png'
+import gaiaesena from '@/assets/gaiaesena.png'
+import claude from '@/assets/claude.png'
+
 const projects = [
   {
     id: 1,
-    title: 'SaaS Financeiro',
-    image: 'https://picsum.photos/600/350?1',
+    title: 'Hub Analítico Executivo (InvestLoto)',
+    image: hub,
     description:
-      'Plataforma de gestão financeira completa com integração bancária e IA para análise de gastos.',
-    techs: ['Next.js', 'Tailwind', 'PostgreSQL'],
+      'MVP que centraliza faturamento, ticket médio e dados transacionais em tempo real, transformando planilhas complexas em decisões ágeis.',
+    techs: ['React', 'TypeScript', 'Tailwind CSS', 'Node.js', 'PostgreSQL'],
     demo: '#',
     github: '#'
   },
   {
     id: 2,
-    title: 'E-commerce App',
-    image: 'https://picsum.photos/600/350?2',
+    title: 'Landing Page Institucional (codewil)',
+    image: landing,
     description:
-      'Aplicativo mobile para delivery focado em experiência de usuário fluida.',
-    techs: ['React Native', 'Node.js', 'Redis'],
+      'Página de alta conversão em dark mode focada em atrair empresas, destacando a transformação de processos manuais em automações inteligentes.',
+    techs: ['Next.js', 'Tailwind CSS', 'Framer Motion', 'n8n', 'Python'],
     demo: '#',
     github: '#'
   },
   {
     id: 3,
-    title: 'Monitoramento IoT',
-    image: 'https://picsum.photos/600/350?3',
+    title: 'Site para Escritório de Advocacia (Gaia & Sena)',
+    image: gaiaesena,
     description:
-      'Painel de controle em tempo real para dispositivos industriais.',
-    techs: ['Vue.js', 'FastAPI', 'MQTT'],
+      'Landing page corporativa voltada para autoridade jurídica e captação ativa de clientes, com integração direta para conversão no WhatsApp.',
+    techs: ['WordPress', 'Elementor', 'SASS', 'JavaScript'],
     demo: '#',
     github: '#'
   },
   {
     id: 4,
-    title: 'Gestão de Conteúdo',
-    image: 'https://picsum.photos/600/350?4',
+    title: 'Agregador de Links (Linktree Customizado)',
+    image: links,
     description:
-      'CMS customizado para agências criativas.',
-    techs: ['Laravel', 'Alpine.js'],
+      'Aplicação web leve de bio link desenvolvida com design system próprio para conectar redes sociais, GitHub, portfólio e contatos diretos.',
+    techs: ['HTML5', 'CSS3', 'JavaScript', 'Vite'],
     demo: '#',
     github: '#'
   },
   {
     id: 5,
-    title: 'Documentação API',
-    image: 'https://picsum.photos/600/350?5',
+    title: 'Portal de Resultados (Resultados da Mega-Sena)',
+    image: resultados,
     description:
       'Portal dinâmico para desenvolvedores.',
-    techs: ['Docusaurus', 'React'],
+    techs: ['Python', 'BeautifulSoup', 'React', 'Tailwind CSS', 'Express'],
     demo: '#',
     github: '#'
   },
   {
     id: 6,
-    title: 'Plataforma TaskMaster',
-    image: 'https://picsum.photos/600/350?6',
+    title: 'Landing Page para Curso Interativo de IA no Marketing Digital',
+    image: claude,
     description:
-      'Gerenciador de tarefas corporativo.',
-    techs: ['Angular', 'Firebase'],
+      'Plataforma interativa no estilo slideshow para venda de curso, focada em experiência do usuário fluida e conversão de profissionais.',
+    techs: ['React', 'TypeScript', 'Tailwind CSS', 'Lovable', 'Framer Motion'],
     demo: '#',
     github: '#'
   }

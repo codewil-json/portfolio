@@ -11,21 +11,24 @@
                 Transformo ideias em aplicações modernas, escaláveis e de alta performance, unindo precisão técnica a experiências excepcionais.
             </p>
             <div class="buttons">
-                <a href="#" class="contact">
+                <a href="mailto:acioliwilson@icloud.com" class="contact">
                     <span>Entrar em Contato</span>
                 </a>
-                <router-link to="/" class="btn-projects">
+                <a href="#projects" class="btn-projects">
                     <span>Ver Projetos</span>
-                </router-link>
+                </a>
             </div>
             <div class="chanels">
-                <a href="#">
+                <a href="https://github.com/codewil-json" target="_blank">
                     <i class="bi bi-github"></i> <span>Github</span>
                 </a>
-                <a href="#">
+                <a href="https://www.linkedin.com/in/wilsonacioli/" target="_blank">
                     <i class="bi bi-linkedin"></i> <span>LinkedIn</span>
                 </a>
-                <a href="#">
+                <a href="https://x.com/WilsonAcioli" target="_blank">
+                    <i class="bi bi-twitter-x"></i> <span>Twitter</span>
+                </a>
+                <a href="https://wa.me/5582996012515" target="_blank">
                     <i class="bi bi-whatsapp"></i> <span>WhatsApp</span>
                 </a>
             </div>
