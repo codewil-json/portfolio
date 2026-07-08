@@ -21,7 +21,7 @@
 
             <div>
               <small>E-mail</small>
-              <span>contato@wilsonacioli.dev</span>
+              <span>acioliwilson@icloud.com</span>
             </div>
           </div>
 
@@ -32,7 +32,7 @@
 
             <div>
               <small>WhatsApp</small>
-              <span>+55 (82) 99999-9999</span>
+              <span>+55 (82) 99601-2515</span>
             </div>
           </div>
 
@@ -49,11 +49,11 @@
         </div>
 
         <div class="socials">
-          <a href="#">
+          <a href="https://www.linkedin.com/in/wilsonacioli/">
             <i class="bi bi-linkedin"></i>
           </a>
 
-          <a href="#">
+          <a href="https://github.com/acioliwilson">
             <i class="bi bi-github"></i>
           </a>
         </div>

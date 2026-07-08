@@ -8,21 +8,21 @@
 
       <nav class="footer-nav">
         <a
-          href="https://linkedin.com"
+          href="https://www.linkedin.com/in/wilsonacioli/"
           target="_blank"
         >
           LinkedIn
         </a>
 
         <a
-          href="https://github.com"
+          href="https://github.com/acioliwilson"
           target="_blank"
         >
           GitHub
         </a>
 
         <a
-          href="https://twitter.com"
+          href="https://x.com/WilsonAcioli"
           target="_blank"
         >
           Twitter
