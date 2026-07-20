@@ -1,0 +1,10 @@
+# CodeWil Portfolio
+# https://www.codewil.site
+
+User-agent: *
+
+Allow: /
+
+Crawl-delay: 2
+
+Sitemap: https://www.codewil.site/sitemap.xml
