@@ -9,11 +9,12 @@
           <span></span>
         </button>
         <nav class="codewil-navigation" :class="{ active: menuOpen }">
-          <a href="#about" class="codewil-navigation-link">Sobre</a>
-          <a href="#skills" class="codewil-navigation-link">Skills</a>
-          <a href="#services" class="codewil-navigation-link">Serviços</a>
-          <a href="#projects" class="codewil-navigation-link">Projetos</a>
-          <a href="#contact" class="codewil-navigation-link">Contato</a>
+          <a href="#about" class="codewil-navigation-link" @click="menuOpen = false">Sobre</a>
+          <a href="#skills" class="codewil-navigation-link" @click="menuOpen = false">Skills</a>
+          <a href="#services" class="codewil-navigation-link" @click="menuOpen = false">Serviços</a>
+          <a href="#projects" class="codewil-navigation-link" @click="menuOpen = false">Projetos</a>
+          <router-link to="/blog" class="codewil-navigation-link" @click="menuOpen = false">Blog</router-link>
+          <a href="#contact" class="codewil-navigation-link" @click="menuOpen = false">Contato</a>
         </nav>
         <button class="theme" @click="toggleTheme">
           <i :class="isDark ? 'bi bi-moon' : 'bi bi-sun'"></i>

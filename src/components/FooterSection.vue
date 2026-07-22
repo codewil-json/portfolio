@@ -3,7 +3,7 @@
     <div class="container">
       <div class="footer-brand">
         <h3>Wilson Acioli</h3>
-        <p>© 2026 Wilson Acioli. Built with precision.</p>
+        <p>© 2026 Wilson Acioli. Feito com precisão.</p>
       </div>
 
       <nav class="footer-nav">
