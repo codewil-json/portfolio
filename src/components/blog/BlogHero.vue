@@ -11,32 +11,21 @@
           </span>
 
           <h1 class="hero-title">
-            Compartilhando conhecimento sobre
-            <span>Desenvolvimento de Software</span>
+            Tecnologia e desenvolvimento<br />
+            para <span>solucionar desafios reais.</span>
           </h1>
 
           <p class="hero-description">
-            Artigos sobre Vue.js, JavaScript, Python, Laravel, SEO,
-            Inteligência Artificial, arquitetura de software, performance
-            e boas práticas para criar aplicações modernas.
+            Compartilho aprendizados, decisões técnicas e experiências sobre desenvolvimento web, automação e inteligência artificial aplicadas a desafios reais de empresas e projetos.
           </p>
 
-          <div class="hero-actions">
-
-            <router-link
-              to="/#contact"
-              class="btn btn-dark btn-lg"
-            >
-              Desenvolva seu projeto
+          <div class="buttons">
+            <router-link to="/#contact" class="contact">
+                <span style="font-weight: 600;">Desenvolva seu projeto</span>
+          </router-link>
+            <router-link to="/blog" class="btn-projects">
+                <span>Explorar artigos</span>
             </router-link>
-
-            <a
-              href="#posts"
-              class="btn btn-outline-dark btn-lg"
-            >
-              Explorar artigos
-            </a>
-
           </div>
 
         </div>
@@ -183,5 +172,47 @@ export default {
   }
 
 }
+
+.buttons {
+        display: flex;
+        gap: 10px;
+
+        .contact {
+          padding: 16px 32px;
+          text-decoration: none;
+          color: #fff;
+          background: #000000;
+          border-radius: 4px;
+          transition: all .3s ease;
+
+          span {
+            font-weight: 400;
+            font-family: 'Geist', sans-serif;
+          }
+
+          &:hover {
+            background: #1F2937;
+          }
+        }
+
+        .btn-projects {
+          padding: 16px 32px;
+          text-decoration: none;
+          color: #000;
+          background: #FFFFFF;
+          border: 1px solid #E5E7EB;
+          border-radius: 4px;
+          transition: .3s;
+
+          span {
+            font-weight: 400;
+            font-family: 'Geist', sans-serif;
+          }
+
+          &:hover {
+            background: #F3F4F6;
+          }
+        }
+      }
 
 </style>

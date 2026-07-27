@@ -8,14 +8,14 @@
                 <b class="black">Full Stack</b>
             </h1>
             <p>
-                Transformo ideias em aplicações modernas, escaláveis e de alta performance, unindo precisão técnica a experiências excepcionais.
+                Crio sites, sistemas web e automações que ajudam empresas a transformar ideias em soluções digitais.
             </p>
             <div class="buttons">
                 <a href="mailto:acioliwilson@icloud.com" class="contact">
-                    <span>Entrar em Contato</span>
+                    <span style="font-weight: 600;">Entrar em contato</span>
                 </a>
                 <a href="#projects" class="btn-projects">
-                    <span>Ver Projetos</span>
+                    <span>Conheça meus projetos</span>
                 </a>
             </div>
             <div class="chanels">
