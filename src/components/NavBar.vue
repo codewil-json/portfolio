@@ -16,7 +16,7 @@
           <router-link to="/blog" class="codewil-navigation-link" @click="menuOpen = false">Blog</router-link>
           <a href="#contact" class="codewil-navigation-link" @click="menuOpen = false">Contato</a>
         </nav>
-        <a href="https://linkedin.com/in/wilsonacioli" class="nav-link" target="_blank" rel="noopener noreferrer">
+        <a href="https://linkedin.com/in/wilsonacioli" class="nav-link in-icon" target="_blank" rel="noopener noreferrer">
           <i class="bi bi-linkedin"></i>
         </a>
       </div>
@@ -110,8 +110,22 @@ header {
 
 @media (max-width: 768px) {
   .wrapper {
-    flex-direction: column;
+    flex-direction: row;
     gap: 1rem;
+    min-height: 60px;
+
+    .codewil-brand {
+      position: absolute;
+      left: 50%;
+      top: .6rem;
+      transform: translateX(-50%);
+    }
+
+    .in-icon {
+      position: absolute;
+      right: 1rem;
+      top: 1rem;
+    }
 
     .toggle-nav {
       display: block;
