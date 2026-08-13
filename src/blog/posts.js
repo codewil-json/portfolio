@@ -1,189 +1,246 @@
 export default [
   {
     slug: 'quanto-custa-criar-site-profissional-2026',
+
     title: 'Quanto Custa Criar um Site Profissional em 2026?',
+
     description:
       'Descubra quanto custa criar um site profissional em 2026, quais fatores influenciam o preço e quanto investir em landing pages, sites institucionais e lojas virtuais.',
+
     category: 'Sites',
-    date: '2026-08-13',
-    readTime: '9 min',
-    featured: true,
-    image: '/images/blog/site-profissional-2026.jpg',
 
-    meta: {
-      title: 'Quanto Custa Criar um Site Profissional em 2026? | CodeWil',
-      description:
-        'Veja os preços atualizados para criar um site profissional, landing page ou loja virtual em 2026 e saiba qual opção faz mais sentido para o seu negócio.',
-      keywords: [
-        'quanto custa criar um site',
-        'site profissional',
-        'preço site institucional',
-        'quanto custa uma landing page',
-        'criação de sites 2026',
-        'site para empresa'
-      ]
-    },
+    date: '13 Ago 2026',
 
-    content: [
-      {
-        type: 'paragraph',
-        text:
-          'Se você pesquisou quanto custa criar um site profissional em 2026, a resposta curta é: entre R$ 800 e R$ 15.000. O valor depende do tipo de projeto, da quantidade de páginas, do design, das integrações e dos objetivos do negócio.'
-      },
+    readTime: '9 min de leitura',
 
-      {
-        type: 'heading',
-        level: 2,
-        text: 'Quanto custa um site em 2026?'
-      },
-      {
-        type: 'paragraph',
-        text:
-          'Não existe um preço único porque existem diferentes tipos de sites. Uma landing page custa muito menos que uma loja virtual completa, por exemplo.'
-      },
+    tags: [
+      'Criação de Sites',
+      'Landing Page',
+      'Site Institucional',
+      'SEO',
+      'Site Profissional',
+      'Desenvolvimento Web',
+      'Empresas'
+    ],
 
-      {
-        type: 'table',
-        headers: ['Tipo de site', 'Faixa de preço'],
-        rows: [
-          ['Landing Page', 'R$ 800 – R$ 2.500'],
-          ['Site Institucional', 'R$ 1.500 – R$ 5.000'],
-          ['Blog Profissional', 'R$ 2.000 – R$ 6.000'],
-          ['Loja Virtual', 'R$ 4.000 – R$ 15.000+']
-        ]
-      },
+    content: `
 
-      {
-        type: 'quote',
-        text:
-          'Para pequenas empresas, um site institucional costuma oferecer o melhor custo-benefício.'
-      },
+<h2 id="introducao">Quanto custa criar um site profissional em 2026?</h2>
 
-      {
-        type: 'heading',
-        level: 2,
-        text: 'O que influencia o preço?'
-      },
-      {
-        type: 'list',
-        items: [
-          'Quantidade de páginas',
-          'Design personalizado',
-          'Versão para celular',
-          'Formulários e WhatsApp',
-          'SEO para Google',
-          'Integrações com sistemas',
-          'Área administrativa'
-        ]
-      },
-      {
-        type: 'paragraph',
-        text:
-          'Quanto mais funcionalidades, maior o tempo de desenvolvimento e, consequentemente, o investimento.'
-      },
+<p>
+Se você pesquisou quanto custa criar um site profissional em 2026, a resposta curta é: entre <strong>R$ 800 e R$ 15.000</strong>. O investimento varia conforme o tipo de projeto, a quantidade de páginas, o design, as integrações e os objetivos da empresa.
+</p>
 
-      {
-        type: 'heading',
-        level: 2,
-        text: 'Landing Page ou Site Institucional?'
-      },
-      {
-        type: 'paragraph',
-        text:
-          'Essa é uma das dúvidas mais pesquisadas no Google. A escolha depende do seu objetivo.'
-      },
+<p>
+A boa notícia é que nem todo negócio precisa investir milhares de reais. Escolher o tipo certo de site costuma gerar muito mais retorno do que simplesmente contratar a opção mais cara.
+</p>
 
-      {
-        type: 'table',
-        headers: ['Landing Page', 'Site Institucional'],
-        rows: [
-          ['1 página', '4 a 10 páginas'],
-          ['Foco em conversão', 'Apresentação da empresa'],
-          ['Ideal para anúncios', 'Ideal para SEO'],
-          ['Mais barata', 'Mais completa']
-        ]
-      },
+<h2 id="precos">Quanto custa um site em 2026?</h2>
 
-      {
-        type: 'heading',
-        level: 2,
-        text: 'Custos além da criação'
-      },
-      {
-        type: 'paragraph',
-        text:
-          'Além do desenvolvimento, todo site possui alguns custos anuais.'
-      },
+<p>
+Cada projeto possui necessidades diferentes. Uma landing page voltada para conversão é muito mais simples do que uma loja virtual completa, por exemplo.
+</p>
 
-      {
-        type: 'table',
-        headers: ['Item', 'Valor médio'],
-        rows: [
-          ['Domínio (.com.br)', 'R$ 40–70/ano'],
-          ['Hospedagem', 'R$ 180–600/ano'],
-          ['SSL', 'Gratuito'],
-          ['Google Analytics', 'Gratuito'],
-          ['Search Console', 'Gratuito']
-        ]
-      },
+<table>
+  <thead>
+    <tr>
+      <th>Tipo de site</th>
+      <th>Faixa de preço</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Landing Page</td>
+      <td>R$ 800 – R$ 2.500</td>
+    </tr>
+    <tr>
+      <td>Site Institucional</td>
+      <td>R$ 1.500 – R$ 5.000</td>
+    </tr>
+    <tr>
+      <td>Blog Profissional</td>
+      <td>R$ 2.000 – R$ 6.000</td>
+    </tr>
+    <tr>
+      <td>Loja Virtual</td>
+      <td>R$ 4.000 – R$ 15.000+</td>
+    </tr>
+  </tbody>
+</table>
 
-      {
-        type: 'heading',
-        level: 2,
-        text: 'Vale a pena criar um site em 2026?'
-      },
-      {
-        type: 'paragraph',
-        text:
-          'Sim. Mesmo com redes sociais fortes, o site continua sendo o único canal que realmente pertence à empresa. Além disso, ele pode aparecer no Google e gerar clientes todos os dias sem depender de anúncios.'
-      },
+<p>
+Para a maioria das pequenas empresas, um site institucional costuma oferecer o melhor custo-benefício por combinar credibilidade, presença no Google e espaço para apresentar serviços.
+</p>
 
-      {
-        type: 'heading',
-        level: 2,
-        text: 'Perguntas frequentes'
-      },
-      {
-        type: 'faq',
-        items: [
-          {
-            q: 'Qual o valor de um site simples?',
-            a:
-              'Entre R$ 800 e R$ 2.500 para uma landing page profissional.'
-          },
-          {
-            q: 'Quanto custa um site institucional?',
-            a:
-              'Normalmente entre R$ 1.500 e R$ 5.000, dependendo da complexidade.'
-          },
-          {
-            q: 'O domínio está incluso?',
-            a:
-              'Nem sempre. Geralmente domínio e hospedagem são cobrados separadamente.'
-          },
-          {
-            q: 'Quanto tempo leva para criar um site?',
-            a: 'Entre 7 e 30 dias para a maioria dos projetos.'
-          },
-          {
-            q: 'Um site ajuda a aparecer no Google?',
-            a:
-              'Sim, desde que seja desenvolvido com boas práticas de SEO e tenha conteúdo relevante.'
-          }
-        ]
-      },
+<h2 id="fatores">O que influencia o preço de um site?</h2>
 
-      {
-        type: 'heading',
-        level: 2,
-        text: 'Conclusão'
-      },
-      {
-        type: 'paragraph',
-        text:
-          'Se o seu objetivo é conquistar clientes pela internet, investir em um site profissional costuma trazer um retorno muito maior do que depender apenas das redes sociais. O ideal é escolher o tipo de site de acordo com a fase do seu negócio e já estruturá-lo pensando em SEO desde o primeiro dia.'
-      }
-    ]
+<p>
+O valor de um site não depende apenas do visual. Existem diversos fatores que aumentam ou reduzem o tempo de desenvolvimento.
+</p>
+
+<ul>
+  <li>Quantidade de páginas.</li>
+  <li>Design personalizado.</li>
+  <li>Versão otimizada para celular.</li>
+  <li>Formulários e integração com WhatsApp.</li>
+  <li>SEO para aparecer no Google.</li>
+  <li>Integrações com APIs e sistemas.</li>
+  <li>Área administrativa para gerenciamento.</li>
+</ul>
+
+<p>
+Quanto mais funcionalidades específicas o projeto exigir, maior será o investimento necessário.
+</p>
+
+<h2 id="landing-vs-site">Landing Page ou Site Institucional?</h2>
+
+<p>
+Essa é uma das dúvidas mais pesquisadas no Google. A escolha depende principalmente do objetivo da empresa.
+</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Landing Page</th>
+      <th>Site Institucional</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1 página</td>
+      <td>4 a 10 páginas</td>
+    </tr>
+    <tr>
+      <td>Foco em conversão</td>
+      <td>Apresentação da empresa</td>
+    </tr>
+    <tr>
+      <td>Ideal para anúncios</td>
+      <td>Ideal para SEO</td>
+    </tr>
+    <tr>
+      <td>Mais econômica</td>
+      <td>Mais completa</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>
+Se o objetivo é vender um único serviço ou captar contatos rapidamente, a landing page costuma ser a melhor escolha. Já empresas que desejam construir autoridade e gerar tráfego orgânico devem priorizar um site institucional.
+</p>
+
+<h2 id="custos-fixos">Quais custos existem além da criação?</h2>
+
+<p>
+Além do desenvolvimento, todo site possui alguns custos anuais de manutenção.
+</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Item</th>
+      <th>Valor médio</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Domínio (.com.br)</td>
+      <td>R$ 40–70/ano</td>
+    </tr>
+    <tr>
+      <td>Hospedagem</td>
+      <td>R$ 180–600/ano</td>
+    </tr>
+    <tr>
+      <td>Certificado SSL</td>
+      <td>Gratuito</td>
+    </tr>
+    <tr>
+      <td>Google Analytics</td>
+      <td>Gratuito</td>
+    </tr>
+    <tr>
+      <td>Google Search Console</td>
+      <td>Gratuito</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>
+Hoje é possível manter um site profissional com um custo anual relativamente baixo, principalmente utilizando hospedagens modernas e certificados SSL gratuitos.
+</p>
+
+<h2 id="vale-apena">Vale a pena investir em um site em 2026?</h2>
+
+<p>
+Sim. Redes sociais são excelentes canais de divulgação, mas elas não substituem um site próprio. O algoritmo muda constantemente, enquanto um site continua sendo um ativo digital que pertence à empresa.
+</p>
+
+<p>
+Além disso, um site otimizado para SEO pode atrair visitantes diariamente através do Google sem depender exclusivamente de anúncios pagos.
+</p>
+
+<h2 id="quando-investir">Quando vale a pena criar um site profissional?</h2>
+
+<p>
+Se sua empresa depende apenas do Instagram ou do WhatsApp para vender, provavelmente já está perdendo oportunidades de clientes que pesquisam diretamente no Google.
+</p>
+
+<p>
+Ter um site transmite mais credibilidade, facilita o contato, apresenta seus serviços e cria uma presença digital permanente para o negócio.
+</p>
+
+<h2 id="conclusao">Conclusão</h2>
+
+<p>
+O custo de um site profissional em 2026 varia conforme o tipo de projeto e as funcionalidades necessárias, mas o mais importante é escolher uma solução alinhada aos objetivos da empresa.
+</p>
+
+<p>
+Para muitos negócios, um site institucional bem estruturado oferece o melhor equilíbrio entre investimento, credibilidade e geração de clientes através do Google.
+</p>
+
+<p>
+Aqui no blog compartilho conteúdos sobre desenvolvimento web, SEO e soluções digitais para ajudar empresas e desenvolvedores a tomarem decisões mais inteligentes na internet.
+</p>
+
+<hr>
+
+<h3>Perguntas frequentes</h3>
+
+<h4>Qual o valor de um site simples?</h4>
+
+<p>
+Uma landing page profissional normalmente custa entre R$ 800 e R$ 2.500, dependendo do design e das funcionalidades.
+</p>
+
+<h4>Quanto custa um site institucional?</h4>
+
+<p>
+O investimento costuma variar entre R$ 1.500 e R$ 5.000 para projetos voltados à apresentação de empresas e serviços.
+</p>
+
+<h4>O domínio está incluso no preço?</h4>
+
+<p>
+Nem sempre. Em muitos projetos, domínio e hospedagem são contratados separadamente pelo cliente.
+</p>
+
+<h4>Quanto tempo leva para desenvolver um site?</h4>
+
+<p>
+A maioria dos sites institucionais pode ser concluída entre 7 e 30 dias, dependendo da complexidade do projeto.
+</p>
+
+<h4>Um site ajuda a aparecer no Google?</h4>
+
+<p>
+Sim. Quando desenvolvido com boas práticas de SEO e conteúdo relevante, um site pode conquistar posições nos resultados orgânicos e gerar visitantes continuamente.
+</p>
+
+<hr>
+
+`
   },
   {
     slug: '7-sinais-de-que-sua-empresa-precisa-de-um-sistema-personalizado',
