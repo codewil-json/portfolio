@@ -16,9 +16,9 @@
           <router-link to="/blog" class="codewil-navigation-link" @click="menuOpen = false">Blog</router-link>
           <a href="#contact" class="codewil-navigation-link" @click="menuOpen = false">Contato</a>
         </nav>
-        <button class="theme" @click="toggleTheme">
-          <i :class="isDark ? 'bi bi-moon' : 'bi bi-sun'"></i>
-        </button>
+        <a href="https://linkedin.com/in/wilsonacioli" class="nav-link" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
       </div>
     </div>
   </header>
