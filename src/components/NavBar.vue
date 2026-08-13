@@ -30,30 +30,7 @@ export default {
 
   data () {
     return {
-      menuOpen: false,
-      isDark: false
-    }
-  },
-
-  mounted () {
-    const theme = localStorage.getItem('theme')
-
-    if (theme === 'dark') {
-      this.isDark = true
-      document.body.classList.add('dark')
-    }
-  },
-
-  methods: {
-    toggleTheme () {
-      this.isDark = !this.isDark
-
-      document.body.classList.toggle('dark')
-
-      localStorage.setItem(
-        'theme',
-        this.isDark ? 'dark' : 'light'
-      )
+      menuOpen: false
     }
   }
 }
@@ -61,7 +38,6 @@ export default {
 </script>
 
 <style scoped lang="scss">
-/* Navigation */
 header {
   border-bottom: 1px solid #E5E7EB;
 }

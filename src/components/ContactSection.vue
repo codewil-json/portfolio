@@ -49,50 +49,109 @@
         </div>
 
         <div class="socials">
-          <a href="https://www.linkedin.com/in/wilsonacioli/">
+          <a href="https://www.linkedin.com/in/wilsonacioli/" target="_blank" rel="noopener noreferrer">
             <i class="bi bi-linkedin"></i>
           </a>
 
-          <a href="https://github.com/acioliwilson">
+          <a href="https://github.com/acioliwilson" target="_blank" rel="noopener noreferrer">
             <i class="bi bi-github"></i>
           </a>
         </div>
       </div>
 
       <div class="contact-form">
-        <form>
+        <form @submit.prevent="sendEmail">
           <div class="field">
-            <label>Nome Completo</label>
-            <input
-              type="text"
-              placeholder="Seu nome"
-            />
+            <label for="name">Nome Completo</label>
+            <input id="name" v-model="form.name" type="text" placeholder="Seu nome" required />
           </div>
 
           <div class="field">
-            <label>E-mail Corporativo</label>
-            <input
-              type="email"
-              placeholder="seu@email.com"
-            />
+            <label for="email">E-mail Corporativo</label>
+            <input id="email" v-model="form.email" type="email" placeholder="seu@email.com" required />
           </div>
 
           <div class="field">
-            <label>Sua Mensagem</label>
-            <textarea
-              rows="5"
-              placeholder="Como posso te ajudar?"
-            />
+            <label for="message">Sua Mensagem</label>
+            <textarea id="message" v-model="form.message" rows="5" placeholder="Como posso te ajudar?"
+              required></textarea>
           </div>
 
-          <button type="submit">
-            Enviar Mensagem
+          <button type="submit" :disabled="sending">
+            {{ sending ? 'Enviando...' : 'Enviar Mensagem' }}
           </button>
+
+          <p v-if="successMessage" class="form-message success">
+            {{ successMessage }}
+          </p>
+
+          <p v-if="errorMessage" class="form-message error">
+            {{ errorMessage }}
+          </p>
         </form>
       </div>
     </div>
   </section>
 </template>
+
+<script>
+import emailjs from '@emailjs/browser'
+
+export default {
+  data () {
+    return {
+      form: {
+        name: '',
+        email: '',
+        message: ''
+      },
+
+      sending: false,
+      successMessage: '',
+      errorMessage: ''
+    }
+  },
+
+  methods: {
+    async sendEmail () {
+      this.sending = true
+      this.successMessage = ''
+      this.errorMessage = ''
+
+      try {
+        await emailjs.send(
+          process.env.VUE_APP_SERVICE_ID,
+          process.env.VUE_APP_TEMPLATE_ID,
+          {
+            from_name: this.form.name,
+            from_email: this.form.email,
+            message: this.form.message
+          },
+          {
+            publicKey: process.env.VUE_APP_PUBLIC_KEY
+          }
+        )
+
+        this.successMessage = 'Mensagem enviada com sucesso! Obrigado pelo contato.'
+
+        this.form = {
+          name: '',
+          email: '',
+          message: ''
+        }
+      } catch (error) {
+        console.error('ERRO EMAILJS:', error)
+        console.error('STATUS:', error.status)
+        console.error('MENSAGEM:', error.text)
+
+        this.errorMessage = `Erro: ${error.text || 'Falha ao enviar mensagem'}`
+      } finally {
+        this.sending = false
+      }
+    }
+  }
+}
+</script>
 
 <style lang="scss" scoped>
 .contact {
@@ -289,5 +348,16 @@
       padding: 25px;
     }
   }
+}
+
+.form-message.success {
+  color: #28a745;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.form-message.error {
+  color: #dc3545;
+  font-size: 14px;
+  margin-top: 10px;
 }
 </style>
