@@ -1,5 +1,425 @@
 export default [
   {
+    slug: 'por-que-seu-site-nao-gera-clientes',
+
+    title: 'Por Que Seu Site Não Gera Clientes? 7 Erros Que Podem Estar Afastando Oportunidades',
+
+    description:
+      'Seu site recebe visitas, mas não gera clientes? Descubra 7 erros comuns que prejudicam a conversão, a experiência do usuário e os resultados da sua empresa na internet.',
+
+    category: 'Sites',
+
+    date: '19 Set 2026',
+
+    readTime: '8 min de leitura',
+
+    tags: [
+      'Criação de Sites',
+      'Conversão',
+      'SEO',
+      'Marketing Digital',
+      'Site Profissional',
+      'Empresas',
+      'Geração de Leads'
+    ],
+
+    content: `
+
+<h2 id="introducao">Seu site recebe visitas, mas não gera clientes?</h2>
+
+<p>
+Imagine investir tempo e dinheiro para criar um site profissional, divulgar sua empresa e conquistar visitantes. Mesmo assim, os contatos não aparecem e poucos visitantes demonstram interesse nos seus serviços.
+</p>
+
+<p>
+Essa situação é mais comum do que parece. Ter um site publicado na internet não significa que ele esteja preparado para atrair clientes e transformar visitas em oportunidades de negócio.
+</p>
+
+<p>
+Um site pode ter um design bonito e ainda apresentar problemas de navegação, comunicação, velocidade ou conversão. Em muitos casos, pequenas melhorias podem fazer uma diferença significativa na experiência de quem acessa a página.
+</p>
+
+<p>
+Neste artigo, você vai conhecer <strong>7 erros que podem estar impedindo seu site de gerar mais oportunidades</strong> e entender o que pode ser feito para melhorar os resultados da sua empresa.
+</p>
+
+<h2 id="erro-1">1. Seu site não deixa claro o que sua empresa oferece</h2>
+
+<p>
+Um dos primeiros problemas que um visitante pode encontrar é não entender rapidamente o que a empresa faz.
+</p>
+
+<p>
+Quando alguém acessa sua página, precisa identificar com facilidade:
+</p>
+
+<ul>
+  <li>Qual serviço ou produto sua empresa oferece.</li>
+  <li>Quem pode se beneficiar da solução.</li>
+  <li>Qual problema sua empresa ajuda a resolver.</li>
+  <li>Como entrar em contato.</li>
+</ul>
+
+<p>
+Se essas informações estão escondidas ou são apresentadas de forma confusa, o visitante pode sair da página antes mesmo de conhecer seus serviços.
+</p>
+
+<p>
+O primeiro conteúdo da página, conhecido como seção inicial ou <strong>hero</strong>, deve comunicar a proposta da empresa de maneira objetiva.
+</p>
+
+<h3>Exemplo prático</h3>
+
+<p>
+Em vez de utilizar uma mensagem genérica como "Soluções inovadoras para o futuro", uma empresa pode apresentar uma comunicação mais específica:
+</p>
+
+<p>
+<strong>“Serviços jurídicos para ajudar sua empresa a tomar decisões com mais segurança.”</strong>
+</p>
+
+<p>
+O texto ideal depende do segmento, do público e dos serviços oferecidos. O importante é facilitar a compreensão do visitante.
+</p>
+
+<h2 id="erro-2">2. Seu site não funciona bem no celular</h2>
+
+<p>
+Grande parte das pessoas acessa sites pelo smartphone. Por isso, uma página que funciona bem apenas no computador pode prejudicar a experiência de potenciais clientes.
+</p>
+
+<p>
+Problemas comuns incluem:
+</p>
+
+<ul>
+  <li>Textos pequenos ou difíceis de ler.</li>
+  <li>Botões próximos demais uns dos outros.</li>
+  <li>Imagens que ultrapassam a tela.</li>
+  <li>Menus difíceis de utilizar.</li>
+  <li>Formulários desconfortáveis no celular.</li>
+</ul>
+
+<p>
+Um site responsivo adapta sua estrutura a diferentes tamanhos de tela, facilitando a navegação em celulares, tablets e computadores.
+</p>
+
+<p>
+<strong>Importante:</strong> não basta reduzir o tamanho da página. A experiência precisa ser pensada para quem utiliza dispositivos móveis.
+</p>
+
+<h2 id="erro-3">3. O visitante não sabe qual ação realizar</h2>
+
+<p>
+Seu site apresenta os serviços, mas deixa o visitante sem saber o que fazer depois?
+</p>
+
+<p>
+Esse pode ser um problema de direcionamento. Uma página comercial precisa oferecer caminhos claros para que a pessoa avance na jornada de contato.
+</p>
+
+<p>
+Alguns exemplos de chamadas para ação são:
+</p>
+
+<ul>
+  <li>Solicitar um orçamento.</li>
+  <li>Agendar uma conversa.</li>
+  <li>Conhecer os serviços.</li>
+  <li>Falar com um especialista.</li>
+  <li>Enviar uma mensagem pelo WhatsApp.</li>
+</ul>
+
+<p>
+A chamada para ação deve estar relacionada ao objetivo da página e ao estágio em que o visitante se encontra.
+</p>
+
+<p>
+Uma landing page voltada à geração de contatos, por exemplo, pode priorizar um formulário ou botão de orçamento. Já um site institucional pode oferecer diferentes formas de conhecer a empresa e entrar em contato.
+</p>
+
+<h2 id="erro-4">4. Seu site demora para carregar</h2>
+
+<p>
+A velocidade de carregamento influencia a experiência de navegação. Quando uma página demora para apresentar seu conteúdo, parte dos visitantes pode abandoná-la antes de interagir.
+</p>
+
+<p>
+Entre os fatores que podem prejudicar o desempenho estão:
+</p>
+
+<ul>
+  <li>Imagens muito pesadas.</li>
+  <li>Código e scripts desnecessários.</li>
+  <li>Hospedagem inadequada para o projeto.</li>
+  <li>Recursos externos mal configurados.</li>
+  <li>Falta de otimização para dispositivos móveis.</li>
+</ul>
+
+<p>
+A velocidade deve ser avaliada com ferramentas como o <strong>Google PageSpeed Insights</strong>, que apresenta métricas e recomendações para melhorar o desempenho.
+</p>
+
+<p>
+Não existe uma única otimização que resolva todos os problemas. O diagnóstico depende da estrutura, do conteúdo e da tecnologia utilizada no site.
+</p>
+
+<h2 id="erro-5">5. Seu site não transmite confiança</h2>
+
+<p>
+Antes de entrar em contato, muitos visitantes procuram sinais de que estão lidando com uma empresa confiável.
+</p>
+
+<p>
+A ausência de informações importantes pode dificultar essa decisão.
+</p>
+
+<p>
+Dependendo do segmento, um site profissional pode apresentar:
+</p>
+
+<ul>
+  <li>Informações claras sobre a empresa.</li>
+  <li>Serviços oferecidos e áreas de atuação.</li>
+  <li>Formas de contato acessíveis.</li>
+  <li>Informações de localização, quando aplicável.</li>
+  <li>Depoimentos ou exemplos de trabalhos, quando disponíveis.</li>
+  <li>Política de privacidade e informações relevantes sobre o uso de dados.</li>
+</ul>
+
+<p>
+A confiança não depende apenas do design. Ela também é construída pela clareza das informações, pela consistência da comunicação e pela facilidade de contato.
+</p>
+
+<p>
+<strong>Evite informações inventadas ou avaliações falsas.</strong> A credibilidade de uma empresa deve ser apresentada com base em evidências reais.
+</p>
+
+<h2 id="erro-6">6. Seu site não foi pensado para o Google</h2>
+
+<p>
+Um site pode estar publicado e ainda apresentar dificuldades para ser encontrado por pessoas que pesquisam pelos serviços da sua empresa.
+</p>
+
+<p>
+O SEO, ou otimização para mecanismos de busca, reúne práticas que ajudam os buscadores a compreender o conteúdo de uma página.
+</p>
+
+<p>
+Alguns pontos importantes incluem:
+</p>
+
+<ul>
+  <li>Títulos de páginas claros e relevantes.</li>
+  <li>Conteúdo útil para o público-alvo.</li>
+  <li>Estrutura adequada de títulos e subtítulos.</li>
+  <li>URLs organizadas.</li>
+  <li>Boa experiência em dispositivos móveis.</li>
+  <li>Desempenho técnico adequado.</li>
+  <li>Informações comerciais consistentes.</li>
+</ul>
+
+<p>
+Por exemplo, uma empresa que oferece serviços contábeis em Maceió pode criar páginas e conteúdos que expliquem seus serviços e respondam às dúvidas do público local.
+</p>
+
+<p>
+Entretanto, <strong>não existe garantia de aparecer na primeira posição do Google</strong>. Os resultados dependem de diversos fatores, da concorrência e da qualidade do conteúdo, entre outros aspectos.
+</p>
+
+<h2 id="erro-7">7. Você não acompanha o comportamento dos visitantes</h2>
+
+<p>
+Como saber se seu site está funcionando bem se você não acompanha seus resultados?
+</p>
+
+<p>
+Sem dados, muitas decisões acabam sendo tomadas apenas com base em suposições.
+</p>
+
+<p>
+Ferramentas como Google Analytics e Google Search Console podem ajudar a compreender diferentes aspectos da presença digital.
+</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Ferramenta</th>
+      <th>O que permite analisar</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Google Analytics</td>
+      <td>Dados de acesso e comportamento medido no site</td>
+    </tr>
+    <tr>
+      <td>Google Search Console</td>
+      <td>Desempenho do site nos resultados da Pesquisa Google</td>
+    </tr>
+    <tr>
+      <td>PageSpeed Insights</td>
+      <td>Métricas e oportunidades de melhoria de desempenho</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>
+Essas ferramentas não substituem uma análise completa, mas podem ajudar a identificar problemas e orientar melhorias.
+</p>
+
+<h2 id="diagnostico">Como descobrir o que está prejudicando seu site?</h2>
+
+<p>
+Antes de realizar mudanças, é importante entender quais problemas realmente afetam seu projeto.
+</p>
+
+<p>
+Uma análise inicial pode seguir estas etapas:
+</p>
+
+<ol>
+  <li><strong>Defina o objetivo:</strong> seu site precisa gerar orçamentos, agendamentos, vendas ou apresentar sua empresa?</li>
+  <li><strong>Conheça o público:</strong> quem acessa sua página e quais informações essa pessoa procura?</li>
+  <li><strong>Teste no celular:</strong> verifique a navegação, os textos, os botões e os formulários.</li>
+  <li><strong>Avalie o desempenho:</strong> identifique problemas que possam dificultar o carregamento.</li>
+  <li><strong>Analise o conteúdo:</strong> confira se seus serviços estão descritos de forma clara.</li>
+  <li><strong>Acompanhe os resultados:</strong> utilize dados para identificar oportunidades de melhoria.</li>
+</ol>
+
+<p>
+Nem todo problema exige a criação de um site completamente novo. Em alguns casos, ajustes no conteúdo, na estrutura ou no desempenho podem ser suficientes. Em outros, uma reformulação mais ampla pode fazer sentido.
+</p>
+
+<h2 id="site-novo">Quando vale a pena criar ou reformular um site?</h2>
+
+<p>
+A decisão depende do estado atual do projeto e dos objetivos da empresa.
+</p>
+
+<p>
+Uma reformulação pode ser considerada quando:
+</p>
+
+<ul>
+  <li>O site não funciona adequadamente em celulares.</li>
+  <li>As informações estão desatualizadas.</li>
+  <li>A navegação é confusa.</li>
+  <li>A empresa mudou seus serviços ou posicionamento.</li>
+  <li>O site apresenta limitações técnicas importantes.</li>
+  <li>Não existem caminhos claros para o visitante entrar em contato.</li>
+</ul>
+
+<p>
+Por outro lado, um site que já possui uma estrutura adequada pode precisar apenas de melhorias pontuais.
+</p>
+
+<p>
+O ideal é avaliar o projeto antes de definir o investimento. Assim, a empresa consegue priorizar mudanças de acordo com suas necessidades e recursos.
+</p>
+
+<h2 id="investimento">Quanto custa melhorar ou criar um site profissional?</h2>
+
+<p>
+O investimento depende do tipo de projeto, da tecnologia, da quantidade de páginas e das funcionalidades necessárias.
+</p>
+
+<p>
+Uma landing page, por exemplo, pode exigir uma estrutura diferente de um site institucional com várias páginas, blog e integrações.
+</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Tipo de projeto</th>
+      <th>Objetivo principal</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Landing Page</td>
+      <td>Apresentar uma oferta ou captar contatos</td>
+    </tr>
+    <tr>
+      <td>Site Institucional</td>
+      <td>Apresentar a empresa, serviços e informações comerciais</td>
+    </tr>
+    <tr>
+      <td>Site com Blog</td>
+      <td>Publicar conteúdo e desenvolver presença orgânica</td>
+    </tr>
+    <tr>
+      <td>Sistema Web Personalizado</td>
+      <td>Atender processos e necessidades específicas do negócio</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>
+O custo deve ser definido a partir do escopo e dos objetivos do projeto, não apenas pela quantidade de páginas ou pelo visual.
+</p>
+
+<h2 id="conclusao">Conclusão</h2>
+
+<p>
+Um site profissional não precisa apenas existir. Ele deve ajudar sua empresa a apresentar seus serviços, transmitir informações relevantes e facilitar o contato com potenciais clientes.
+</p>
+
+<p>
+Problemas de comunicação, navegação, desempenho e SEO podem prejudicar a experiência do visitante. Por isso, analisar a estrutura atual do site é um passo importante antes de decidir quais melhorias realizar.
+</p>
+
+<p>
+Se sua empresa depende exclusivamente do Instagram ou do WhatsApp, talvez seja o momento de avaliar como um site próprio pode complementar sua presença digital.
+</p>
+
+<p>
+Na CodeWil, projetos digitais podem ser planejados de acordo com as necessidades de cada empresa, desde sites institucionais e landing pages até sistemas web e integrações personalizadas.
+</p>
+
+<p>
+<strong>O primeiro passo é entender o problema que você deseja resolver.</strong>
+</p>
+
+<hr>
+
+<h3>Perguntas frequentes</h3>
+
+<h4>Por que meu site não gera clientes?</h4>
+
+<p>
+Existem diversas possibilidades, incluindo comunicação pouco clara, problemas de navegação, falta de chamadas para ação, desempenho inadequado e desalinhamento com o público-alvo. É necessário analisar o projeto para identificar as causas.
+</p>
+
+<h4>Um site bonito é suficiente para atrair clientes?</h4>
+
+<p>
+Não. O design é apenas um dos elementos de um site. Conteúdo relevante, experiência do usuário, desempenho e estratégias de aquisição também são importantes.
+</p>
+
+<h4>Preciso criar um site novo ou posso melhorar o atual?</h4>
+
+<p>
+Depende da estrutura e das limitações do site existente. Algumas situações podem ser resolvidas com melhorias pontuais, enquanto outras exigem uma reformulação mais abrangente.
+</p>
+
+<h4>SEO garante que meu site apareça no Google?</h4>
+
+<p>
+Não. O SEO reúne práticas que podem ajudar os mecanismos de busca a compreender e encontrar seu conteúdo, mas não garante posições específicas nos resultados.
+</p>
+
+<h4>Quanto custa criar um site que gera clientes?</h4>
+
+<p>
+O investimento varia conforme o tipo de projeto, o escopo, as funcionalidades e os objetivos comerciais. Um site mais caro não garante automaticamente mais clientes. O planejamento deve considerar as necessidades reais da empresa.
+</p>
+
+<hr>
+
+`
+  },
+  {
     slug: 'quanto-custa-criar-site-profissional-2026',
 
     title: 'Quanto Custa Criar um Site Profissional em 2026?',
