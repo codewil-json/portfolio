@@ -24,12 +24,14 @@
     </url>
 
     <url>
-    <loc>http://codewil.site/blog/o-que-seu-cliente-pesquisa-antes-de-contratar-sua-empresa</loc>
+    <url>
+        <loc>http://codewil.site/blog/o-que-seu-cliente-pesquisa-antes-de-contratar-sua-empresa</loc>
         <lastmod>2026-07-30</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
-    <loc>https://www.codewil.site/blog/por-que-seu-site-nao-gera-clientes</loc>
+    <url>
+        <loc>https://www.codewil.site/blog/por-que-seu-site-nao-gera-clientes</loc>
         <lastmod>2026-07-28</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
