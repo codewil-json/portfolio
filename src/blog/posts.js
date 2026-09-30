@@ -1,5 +1,309 @@
 export default [
   {
+    slug: 'o-que-seu-cliente-pesquisa-antes-de-contratar-sua-empresa',
+
+    title: 'O Que Seu Cliente Pesquisa Antes de Contratar Sua Empresa?',
+
+    description:
+      'Descubra o que potenciais clientes pesquisam antes de entrar em contato com uma empresa e como usar essas informações para melhorar sua presença digital.',
+
+    category: 'Negócios',
+
+    tags: [
+      'Comportamento do Cliente',
+      'Google',
+      'Presença Digital',
+      'Marketing Digital',
+      'Empresas',
+      'Estratégia Digital'
+    ],
+
+    date: '2026-09-30',
+
+    readTime: '7 min',
+
+    content: `
+    <p>
+      Antes de entrar em contato com uma empresa, é comum que o cliente faça
+      algumas pesquisas na internet.
+    </p>
+
+    <p>
+      Ele pode procurar um serviço, comparar opções, verificar preços, procurar
+      avaliações ou simplesmente tentar descobrir se aquela empresa realmente
+      existe e parece confiável.
+    </p>
+
+    <p>
+      O problema é que muitas empresas pensam apenas em aparecer quando alguém
+      pesquisa pelo próprio nome. Mas o cliente pode estar procurando
+      <strong>uma solução para um problema</strong>, e não uma empresa específica.
+    </p>
+
+    <h2>O cliente nem sempre sabe qual empresa contratar</h2>
+
+    <p>
+      Imagine alguém que precisa criar uma identidade visual para sua empresa.
+      Provavelmente, a primeira pesquisa não será pelo nome de uma agência.
+    </p>
+
+    <p>
+      A pessoa pode pesquisar algo como:
+    </p>
+
+    <ul>
+      <li>Quanto custa criar uma identidade visual?</li>
+      <li>Como escolher uma agência de design?</li>
+      <li>Preciso de uma identidade visual para minha empresa?</li>
+      <li>Agência de design perto de mim;</li>
+      <li>Empresa que cria identidade visual.</li>
+    </ul>
+
+    <p>
+      Antes de decidir com quem contratar, existe uma jornada.
+      E essa jornada começa muito antes do primeiro contato.
+    </p>
+
+    <h2>Existem diferentes tipos de pesquisa</h2>
+
+    <p>
+      Nem toda pesquisa feita no Google demonstra a mesma intenção.
+    </p>
+
+    <p>
+      Uma pessoa pode estar apenas tentando entender um assunto. Outra pode
+      estar comparando soluções. E outra já pode estar procurando alguém para
+      contratar.
+    </p>
+
+    <h3>1. Pesquisas para entender um problema</h3>
+
+    <p>
+      São pesquisas feitas quando a pessoa ainda está tentando entender o que
+      está acontecendo.
+    </p>
+
+    <p>
+      Por exemplo:
+      <strong>“por que minha empresa recebe poucos contatos pelo site?”</strong>
+    </p>
+
+    <p>
+      Nesse momento, o cliente ainda pode não estar pensando em contratar
+      ninguém. Ele está tentando entender o problema.
+    </p>
+
+    <h3>2. Pesquisas para encontrar uma solução</h3>
+
+    <p>
+      Depois de entender o problema, a pesquisa pode mudar.
+    </p>
+
+    <p>
+      A pessoa começa a procurar maneiras de resolver aquilo e passa a conhecer
+      diferentes alternativas.
+    </p>
+
+    <p>
+      É nessa etapa que conteúdos educativos podem ajudar uma empresa a ser
+      encontrada e começar a construir confiança.
+    </p>
+
+    <h3>3. Pesquisas para contratar</h3>
+
+    <p>
+      Quando a pessoa já sabe o que precisa, a intenção costuma ficar mais
+      próxima da contratação.
+    </p>
+
+    <p>
+      Ela pode pesquisar:
+    </p>
+
+    <ul>
+      <li>Empresa que cria sites;</li>
+      <li>Desenvolvedor web;</li>
+      <li>Empresa de desenvolvimento de sistemas;</li>
+      <li>Criação de site profissional;</li>
+      <li>Orçamento para criar um site.</li>
+    </ul>
+
+    <p>
+      Nesse momento, ter uma presença digital clara pode fazer diferença na
+      decisão do potencial cliente.
+    </p>
+
+    <h2>Seu conteúdo responde às perguntas que seus clientes fazem?</h2>
+
+    <p>
+      Uma maneira simples de descobrir novas oportunidades é observar as
+      perguntas que seus próprios clientes fazem durante o atendimento.
+    </p>
+
+    <p>
+      Perguntas frequentes podem revelar exatamente quais informações estão
+      faltando na internet.
+    </p>
+
+    <p>
+      Se várias pessoas perguntam:
+      <strong>“quanto custa esse serviço?”</strong>,
+      talvez essa seja uma informação que merece ser explicada.
+    </p>
+
+    <p>
+      Se perguntam:
+      <strong>“quanto tempo demora?”</strong>,
+      isso também pode virar conteúdo.
+    </p>
+
+    <p>
+      O mesmo vale para dúvidas sobre funcionamento, benefícios, diferenças
+      entre serviços, etapas do processo e formas de contratação.
+    </p>
+
+    <h2>Seu site não precisa falar apenas sobre sua empresa</h2>
+
+    <p>
+      Um erro comum é construir uma presença digital completamente focada na
+      própria empresa.
+    </p>
+
+    <p>
+      A página fala sobre quem é a empresa, seus valores, sua história e seus
+      serviços, mas não responde às dúvidas que o cliente realmente possui.
+    </p>
+
+    <p>
+      Informações institucionais são importantes. Porém, também é necessário
+      pensar na experiência de quem está chegando pela primeira vez.
+    </p>
+
+    <p>
+      <strong>O cliente não está procurando apenas uma empresa. Ele está
+      procurando uma resposta para alguma necessidade.</strong>
+    </p>
+
+    <h2>Como descobrir o que seus clientes pesquisam?</h2>
+
+    <p>
+      Você não precisa começar com uma estratégia complicada.
+    </p>
+
+    <p>
+      Comece pelas conversas que já acontecem no seu negócio.
+    </p>
+
+    <ol>
+      <li>Liste as principais dúvidas recebidas pelos clientes;</li>
+      <li>Observe quais serviços geram mais perguntas;</li>
+      <li>Identifique problemas que aparecem com frequência;</li>
+      <li>Pesquise como essas dúvidas são apresentadas no Google;</li>
+      <li>Separe pesquisas informativas das pesquisas com intenção de contratação;</li>
+      <li>Crie páginas e conteúdos que respondam a essas necessidades.</li>
+    </ol>
+
+    <p>
+      Esse processo pode revelar oportunidades que não aparecem quando a empresa
+      pensa apenas em palavras relacionadas ao próprio nome.
+    </p>
+
+    <h2>Uma pesquisa pode revelar uma oportunidade de negócio</h2>
+
+    <p>
+      Imagine que uma empresa perceba que muitos potenciais clientes pesquisam
+      sobre determinado problema, mas quase ninguém oferece uma explicação clara
+      sobre ele.
+    </p>
+
+    <p>
+      Isso pode representar uma oportunidade para produzir conteúdo, melhorar
+      uma página existente ou até criar um novo serviço.
+    </p>
+
+    <p>
+      A internet deixa de ser apenas um lugar para apresentar a empresa e passa
+      a fazer parte da estratégia comercial.
+    </p>
+
+    <h2>O objetivo não é aparecer para todo mundo</h2>
+
+    <p>
+      Ter muitas visitas não significa necessariamente ter muitos clientes.
+    </p>
+
+    <p>
+      Uma empresa pode receber acessos de pessoas que nunca terão interesse em
+      seus serviços.
+    </p>
+
+    <p>
+      Por isso, mais importante do que tentar aparecer para qualquer pesquisa
+      é entender <strong>quais pesquisas são relevantes para o negócio</strong>.
+    </p>
+
+    <p>
+      O visitante certo, no momento certo, pode ter muito mais valor do que
+      uma grande quantidade de acessos sem relação com aquilo que a empresa
+      oferece.
+    </p>
+
+    <h2>Conhecer o cliente muda a forma de construir sua presença digital</h2>
+
+    <p>
+      Quando uma empresa entende o que seus potenciais clientes procuram,
+      fica mais fácil decidir quais informações apresentar, quais conteúdos
+      produzir e quais páginas realmente precisam existir.
+    </p>
+
+    <p>
+      Em vez de começar perguntando:
+      <strong>“O que devemos colocar no nosso site?”</strong>,
+      talvez seja mais interessante começar perguntando:
+      <strong>“O que nosso cliente precisa encontrar?”</strong>
+    </p>
+
+    <p>
+      Essa mudança de perspectiva pode transformar completamente a forma como
+      uma empresa se apresenta na internet.
+    </p>
+
+    <h2>Conclusão</h2>
+
+    <p>
+      O caminho até uma contratação geralmente começa antes do primeiro contato.
+    </p>
+
+    <p>
+      Seu potencial cliente pode estar pesquisando problemas, preços, soluções,
+      empresas e alternativas muito antes de decidir enviar uma mensagem.
+    </p>
+
+    <p>
+      Entender esse comportamento ajuda sua empresa a criar uma presença digital
+      mais útil, relevante e alinhada às necessidades de quem realmente pode
+      se tornar cliente.
+    </p>
+
+    <p>
+      <strong>Antes de pensar no que sua empresa quer dizer na internet,
+      descubra o que seus clientes estão tentando descobrir.</strong>
+    </p>
+
+    <h2>Quer melhorar a presença digital da sua empresa?</h2>
+
+    <p>
+      Um projeto digital começa entendendo o negócio, o público e o objetivo
+      que a empresa pretende alcançar.
+    </p>
+
+    <p>
+      Se você precisa transformar uma ideia ou necessidade em uma solução digital,
+      <a href="/#contact">entre em contato com o CodeWil</a>.
+    </p>
+  `
+  },
+  {
     slug: 'por-que-seu-site-nao-gera-clientes',
 
     title: 'Por Que Seu Site Não Gera Clientes? 7 Erros Que Podem Estar Afastando Oportunidades',
