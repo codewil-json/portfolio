@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Black November 20% OFF - Soluções Digitais & IA</title>
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#f0fdf4',
+              500: '#10b981',
+              600: '#059669',
+            },
+            accent: {
+              purple: '#8b5cf6',
+              violet: '#7c3aed',
+              gold: '#f59e0b',
+              neon: '#00ffcc'
+            },
+            dark: {
+              bg: '#07090e',
+              card: '#0f172a',
+              input: '#1e293b',
+              border: '#334155'
+            }
+          },
+          animation: {
+            'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+            'glow': 'glow 2s infinite alternate',
+          },
+          keyframes: {
+            glow: {
+              '0%': { boxShadow: '0 0 15px rgba(139, 92, 246, 0.4)' },
+              '100%': { boxShadow: '0 0 30px rgba(16, 185, 129, 0.7)' }
+            }
+          }
+        }
+      }
+    }
+  </script>
+  
+  <!-- Google Fonts & FontAwesome Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <style>
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background-color: #05070c;
+      color: #f8fafc;
+      overflow-x: hidden;
+    }
+
+    /* Subtle Animated Glow background */
+    .bg-glow-purple {
+      position: absolute;
+      top: -10%;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 600px;
+      height: 600px;
+      background: radial-gradient(circle, rgba(139, 92, 246, 0.15) 0%, rgba(5, 7, 12, 0) 70%);
+      z-index: 0;
+      pointer-events: none;
+    }
+    
+    .bg-glow-emerald {
+      position: absolute;
+      bottom: 5%;
+      right: -10%;
+      width: 500px;
+      height: 500px;
+      background: radial-gradient(circle, rgba(16, 185, 129, 0.12) 0%, rgba(5, 7, 12, 0) 70%);
+      z-index: 0;
+      pointer-events: none;
+    }
+
+    /* Custom Glassmorphism Card */
+    .glass-card {
+      background: rgba(15, 23, 42, 0.75);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    /* Custom Checkbox Cards */
+    .solution-checkbox:checked + label {
+      border-color: #10b981;
+      background-color: rgba(16, 185, 129, 0.08);
+      box-shadow: 0 0 20px rgba(16, 185, 129, 0.2);
+    }
+
+    .solution-checkbox:checked + label .icon-box {
+      background: linear-gradient(135deg, #10b981, #059669);
+      color: #ffffff;
+    }
+
+    .solution-checkbox:checked + label .check-indicator {
+      opacity: 1;
+      transform: scale(1);
+    }
+
+    /* Radio button custom style */
+    .urgency-radio:checked + label {
+      border-color: #8b5cf6;
+      background-color: rgba(139, 92, 246, 0.1);
+      box-shadow: 0 0 15px rgba(139, 92, 246, 0.25);
+    }
+
+    .urgency-radio:checked + label .radio-dot {
+      border-color: #8b5cf6;
+      background-color: #8b5cf6;
+    }
+
+    /* Smooth Input Glow */
+    .custom-input:focus {
+      outline: none;
+      border-color: #8b5cf6;
+      box-shadow: 0 0 12px rgba(139, 92, 246, 0.3);
+    }
+
+    /* Gradient Text */
+    .text-gradient {
+      background: linear-gradient(135deg, #ffffff 30%, #a7f3d0 70%, #10b981 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    
+    .text-gradient-purple {
+      background: linear-gradient(135deg, #c084fc 0%, #a855f7 50%, #e879f9 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    /* Hide Scrollbar for clean UX */
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #07090e;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #1e293b;
+      border-radius: 4px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #334155;
+    }
+  </style>
+</head>
+<body class="min-h-screen relative flex flex-col justify-between py-6 px-4 sm:px-6 lg:px-8">
+
+  <!-- Glow Decorative Background Elements -->
+  <div class="bg-glow-purple"></div>
+  <div class="bg-glow-emerald"></div>
+
+  <!-- Main Container -->
+  <div class="max-w-4xl mx-auto w-full relative z-10 my-auto">
+    
+    <!-- Top Countdown & Promo Header Banner -->
+    <div class="mb-8 text-center">
+      <!-- Badge -->
+      <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-gradient-to-r from-purple-900/60 via-slate-900 to-emerald-900/60 border border-purple-500/30 text-xs sm:text-sm font-semibold tracking-wide text-white shadow-lg mb-4">
+        <span class="flex h-2 w-2 rounded-full bg-emerald-400 animate-ping"></span>
+        <span class="text-amber-400 font-bold">⚡ BLACK NOVEMBER</span>
+        <span class="text-gray-400">|</span>
+        <span class="text-emerald-400 font-extrabold tracking-wider">20% OFF EM TODAS AS SOLUÇÕES</span>
+      </div>
+
+      <!-- Main Headline -->
+      <h1 class="text-3xl sm:text-5xl font-extrabold tracking-tight text-white mb-3">
+        Transforme Seus Processos & <br class="hidden sm:inline" />
+        <span class="text-gradient">Alavanque Seu Negócio</span>
+      </h1>
+      <p class="max-w-2xl mx-auto text-sm sm:text-base text-gray-300 font-normal leading-relaxed">
+        Preencha o formulário abaixo para garantir o seu <strong class="text-emerald-400">desconto exclusivo de 20%</strong> em Automações, IA, Sistemas Web e Integrações.
+      </p>
+
+      <!-- Countdown Timer -->
+      <div class="mt-6 inline-flex items-center justify-center gap-3 sm:gap-6 bg-slate-900/80 border border-slate-800 rounded-2xl px-5 py-3 shadow-xl backdrop-blur-md">
+        <div class="text-xs uppercase text-gray-400 font-semibold tracking-wider">Oferta Expira Em:</div>
+        <div class="flex items-center gap-2 text-white font-mono font-bold text-lg sm:text-xl">
+          <div class="bg-slate-800 px-2.5 py-1 rounded-lg border border-slate-700 text-emerald-400" id="timer-days">08</div>
+          <span class="text-xs text-gray-500">d</span>
+          <div class="bg-slate-800 px-2.5 py-1 rounded-lg border border-slate-700 text-emerald-400" id="timer-hours">14</div>
+          <span class="text-xs text-gray-500">h</span>
+          <div class="bg-slate-800 px-2.5 py-1 rounded-lg border border-slate-700 text-emerald-400" id="timer-mins">32</div>
+          <span class="text-xs text-gray-500">m</span>
+          <div class="bg-slate-800 px-2.5 py-1 rounded-lg border border-slate-700 text-emerald-400" id="timer-secs">45</div>
+          <span class="text-xs text-gray-500">s</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Multi-Step Form Card -->
+    <div class="glass-card rounded-3xl p-6 sm:p-10 shadow-2xl relative overflow-hidden">
+      
+      <!-- Top Decorative Accent Line -->
+      <div class="absolute top-0 left-0 right-0 h-1.5 bg-gradient-to-r from-purple-500 via-emerald-400 to-amber-400"></div>
+
+      <!-- Applied Coupon Visual Alert -->
+      <div class="mb-8 flex items-center justify-between bg-emerald-950/40 border border-emerald-500/40 rounded-2xl p-4 text-emerald-300">
+        <div class="flex items-center gap-3">
+          <div class="w-10 h-10 rounded-xl bg-emerald-500/20 flex items-center justify-center text-emerald-400 text-lg flex-shrink-0">
+            <i class="fa-solid font-bold fa-ticket"></i>
+          </div>
+          <div>
+            <div class="text-xs uppercase font-bold tracking-wider text-emerald-400/80">Cupom de Desconto Especial</div>
+            <div class="text-sm font-bold text-white flex items-center gap-2">
+              <span>BLACK20</span>
+              <span class="bg-emerald-500 text-slate-950 text-[10px] font-extrabold px-2 py-0.5 rounded-full uppercase">20% OFF Aplicado</span>
+            </div>
+          </div>
+        </div>
+        <div class="hidden sm:flex text-xs font-semibold text-emerald-400/90 items-center gap-1">
+          <i class="fa-solid fa-circle-check"></i> Garantido
+        </div>
+      </div>
+
+      <form id="blackNovemberForm" onsubmit="handleFormSubmit(event)" class="space-y-8">
+        
+        <!-- SEÇÃO 1: INFORMAÇÕES DE CONTATO -->
+        <div>
+          <div class="flex items-center gap-2 mb-4">
+            <span class="flex items-center justify-center w-7 h-7 rounded-lg bg-purple-500/20 text-purple-400 font-bold text-xs border border-purple-500/30">1</span>
+            <h3 class="text-lg font-bold text-white">Informações de Contato</h3>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
+            <!-- Nome Completo -->
+            <div>
+              <label for="fullName" class="block text-xs font-medium text-gray-300 mb-1.5">Nome Completo *</label>
+              <div class="relative">
+                <div class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-gray-500">
+                  <i class="fa-regular fa-user"></i>
+                </div>
+                <input type="text" id="fullName" required placeholder="Ex: Carlos Oliveira"
+                  class="custom-input w-full pl-10 pr-4 py-3 bg-slate-900/90 border border-slate-700/80 rounded-xl text-white placeholder-gray-500 text-sm transition-all">
+              </div>
+            </div>
+
+            <!-- E-mail -->
+            <div>
+              <label for="email" class="block text-xs font-medium text-gray-300 mb-1.5">E-mail Corporativo ou Pessoal *</label>
+              <div class="relative">
+                <div class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-gray-500">
+                  <i class="fa-regular fa-envelope"></i>
+                </div>
+                <input type="email" id="email" required placeholder="carlos@empresa.com.br"
+                  class="custom-input w-full pl-10 pr-4 py-3 bg-slate-900/90 border border-slate-700/80 rounded-xl text-white placeholder-gray-500 text-sm transition-all">
+              </div>
+            </div>
+
+            <!-- WhatsApp -->
+            <div class="sm:col-span-2">
+              <label for="whatsapp" class="block text-xs font-medium text-gray-300 mb-1.5">WhatsApp com DDD (Para Envio da Proposta Comercial) *</label>
+              <div class="relative">
+                <div class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-emerald-500 font-bold">
+                  <i class="fa-brands fa-whatsapp text-lg"></i>
+                </div>
+                <input type="tel" id="whatsapp" required placeholder="(11) 99999-9999" maxlength="15" oninput="formatWhatsApp(this)"
+                  class="custom-input w-full pl-10 pr-4 py-3 bg-slate-900/90 border border-slate-700/80 rounded-xl text-white placeholder-gray-500 text-sm transition-all">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <hr class="border-slate-800" />
+
+        <!-- SEÇÃO 2: DADOS DA EMPRESA -->
+        <div>
+          <div class="flex items-center gap-2 mb-4">
+            <span class="flex items-center justify-center w-7 h-7 rounded-lg bg-purple-500/20 text-purple-400 font-bold text-xs border border-purple-500/30">2</span>
+            <h3 class="text-lg font-bold text-white">Sobre o Seu Negócio</h3>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
+            <!-- Empresa -->
+            <div>
+              <label for="companyName" class="block text-xs font-medium text-gray-300 mb-1.5">Nome da Empresa / Projeto *</label>
+              <div class="relative">
+                <div class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-gray-500">
+                  <i class="fa-regular fa-building"></i>
+                </div>
+                <input type="text" id="companyName" required placeholder="Ex: Tech Solutions Ltda"
+                  class="custom-input w-full pl-10 pr-4 py-3 bg-slate-900/90 border border-slate-700/80 rounded-xl text-white placeholder-gray-500 text-sm transition-all">
+              </div>
+            </div>
+
+            <!-- Cargo -->
+            <div>
+              <label for="role" class="block text-xs font-medium text-gray-300 mb-1.5">Seu Cargo / Atuação</label>
+              <div class="relative">
+                <div class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-gray-500">
+                  <i class="fa-solid fa-briefcase"></i>
+                </div>
+                <input type="text" id="role" placeholder="Ex: CEO, Diretor de Operações, Gerente"
+                  class="custom-input w-full pl-10 pr-4 py-3 bg-slate-900/90 border border-slate-700/80 rounded-xl text-white placeholder-gray-500 text-sm transition-all">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <hr class="border-slate-800" />
+
+        <!-- SEÇÃO 3: SOLUÇÕES DE INTERESSE -->
+        <div>
+          <div class="flex items-center justify-between mb-4">
+            <div class="flex items-center gap-2">
+              <span class="flex items-center justify-center w-7 h-7 rounded-lg bg-emerald-500/20 text-emerald-400 font-bold text-xs border border-emerald-500/30">3</span>
+              <h3 class="text-lg font-bold text-white">Soluções Digitais de Interesse</h3>
+            </div>
+            <span class="text-xs text-gray-400 italic">Selecione uma ou mais</span>
+          </div>
+
+          <!-- Cards Grid -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3.5">
+            
+            <!-- Card 1 -->
+            <div>
+              <input type="checkbox" id="sol-ai" value="Agentes de IA & Assistentes Inteligentes" class="hidden solution-checkbox" checked>
+              <label for="sol-ai" class="flex items-center p-3.5 rounded-2xl bg-slate-900/60 border border-slate-800 cursor-pointer hover:border-slate-700 transition-all select-none group">
+                <div class="icon-box w-10 h-10 rounded-xl bg-slate-800 text-purple-400 flex items-center justify-center text-lg mr-3 transition-colors flex-shrink-0">
+                  <i class="fa-solid fa-robot"></i>
+                </div>
+                <div class="flex-grow pr-2">
+                  <div class="text-sm font-semibold text-white group-hover:text-emerald-300 transition-colors">Agentes de IA</div>
+                  <div class="text-xs text-gray-400">Assistentes para WhatsApp, SAC e Vendas</div>
+                </div>
+                <div class="check-indicator opacity-0 scale-50 transition-all text-emerald-400 text-lg ml-auto">
+                  <i class="fa-solid fa-circle-check"></i>
+                </div>
+              </label>
+            </div>
+
+            <!-- Card 2 -->
+            <div>
+              <input type="checkbox" id="sol-rpa" value="Automação de Processos (RPA/n8n)" class="hidden solution-checkbox">
+              <label for="sol-rpa" class="flex items-center p-3.5 rounded-2xl bg-slate-900/60 border border-slate-800 cursor-pointer hover:border-slate-700 transition-all select-none group">
+                <div class="icon-box w-10 h-10 rounded-xl bg-slate-800 text-purple-400 flex items-center justify-center text-lg mr-3 transition-colors flex-shrink-0">
+                  <i class="fa-solid fa-gears"></i>
+                </div>
+                <div class="flex-grow pr-2">
+                  <div class="text-sm font-semibold text-white group-hover:text-emerald-300 transition-colors">Automação de Processos</div>
+                  <div class="text-xs text-gray-400">Workflows n8n, RPA & Tarefas Repetitivas</div>
+                </div>
+                <div class="check-indicator opacity-0 scale-50 transition-all text-emerald-400 text-lg ml-auto">
+                  <i class="fa-solid fa-circle-check"></i>
+                </div>
+              </label>
+            </div>
+
+            <!-- Card 3 -->
+            <div>
+              <input type="checkbox" id="sol-web" value="Desenvolvimento de Software & Sistemas Web" class="hidden solution-checkbox">
+              <label for="sol-web" class="flex items-center p-3.5 rounded-2xl bg-slate-900/60 border border-slate-800 cursor-pointer hover:border-slate-700 transition-all select-none group">
+                <div class="icon-box w-10 h-10 rounded-xl bg-slate-800 text-purple-400 flex items-center justify-center text-lg mr-3 transition-colors flex-shrink-0">
+                  <i class="fa-solid fa-code"></i>
+                </div>
+                <div class="flex-grow pr-2">
+                  <div class="text-sm font-semibold text-white group-hover:text-emerald-300 transition-colors">Sistemas Web & SaaS</div>
+                  <div class="text-xs text-gray-400">Plataformas personalizadas sob medida</div>
+                </div>
+                <div class="check-indicator opacity-0 scale-50 transition-all text-emerald-400 text-lg ml-auto">
+                  <i class="fa-solid fa-circle-check"></i>
+                </div>
+              </label>
+            </div>
+
+            <!-- Card 4 -->
+            <div>
+              <input type="checkbox" id="sol-landing" value="Sites Estratégicos & Páginas de Conversão" class="hidden solution-checkbox">
+              <label for="sol-landing" class="flex items-center p-3.5 rounded-2xl bg-slate-900/60 border border-slate-800 cursor-pointer hover:border-slate-700 transition-all select-none group">
+                <div class="icon-box w-10 h-10 rounded-xl bg-slate-800 text-purple-400 flex items-center justify-center text-lg mr-3 transition-colors flex-shrink-0">
+                  <i class="fa-solid fa-rocket"></i>
+                </div>
+                <div class="flex-grow pr-2">
+                  <div class="text-sm font-semibold text-white group-hover:text-emerald-300 transition-colors">Sites & LPs de Conversão</div>
+                  <div class="text-xs text-gray-400">Design premium focado em gerar leads</div>
+                </div>
+                <div class="check-indicator opacity-0 scale-50 transition-all text-emerald-400 text-lg ml-auto">
+                  <i class="fa-solid fa-circle-check"></i>
+                </div>
+              </label>
+            </div>
+
+            <!-- Card 5 -->
+            <div>
+              <input type="checkbox" id="sol-api" value="Integrações de Ferramentas & APIs" class="hidden solution-checkbox">
+              <label for="sol-api" class="flex items-center p-3.5 rounded-2xl bg-slate-900/60 border border-slate-800 cursor-pointer hover:border-slate-700 transition-all select-none group">
+                <div class="icon-box w-10 h-10 rounded-xl bg-slate-800 text-purple-400 flex items-center justify-center text-lg mr-3 transition-colors flex-shrink-0">
+                  <i class="fa-solid fa-plug"></i>
+                </div>
+                <div class="flex-grow pr-2">
+                  <div class="text-sm font-semibold text-white group-hover:text-emerald-300 transition-colors">Integrações de APIs</div>
+                  <div class="text-xs text-gray-400">Conecte CRMs, ERPs e ferramentas</div>
+                </div>
+                <div class="check-indicator opacity-0 scale-50 transition-all text-emerald-400 text-lg ml-auto">
+                  <i class="fa-solid fa-circle-check"></i>
+                </div>
+              </label>
+            </div>
+
+            <!-- Card 6 -->
+            <div>
+              <input type="checkbox" id="sol-consulting" value="Consultoria Estratégica em TI" class="hidden solution-checkbox">
+              <label for="sol-consulting" class="flex items-center p-3.5 rounded-2xl bg-slate-900/60 border border-slate-800 cursor-pointer hover:border-slate-700 transition-all select-none group">
+                <div class="icon-box w-10 h-10 rounded-xl bg-slate-800 text-purple-400 flex items-center justify-center text-lg mr-3 transition-colors flex-shrink-0">
+                  <i class="fa-solid fa-lightbulb"></i>
+                </div>
+                <div class="flex-grow pr-2">
+                  <div class="text-sm font-semibold text-white group-hover:text-emerald-300 transition-colors">Consultoria em IA & TI</div>
+                  <div class="text-xs text-gray-400">Diagnóstico técnico e arquitetura de solução</div>
+                </div>
+                <div class="check-indicator opacity-0 scale-50 transition-all text-emerald-400 text-lg ml-auto">
+                  <i class="fa-solid fa-circle-check"></i>
+                </div>
+              </label>
+            </div>
+
+          </div>
+        </div>
+
+        <hr class="border-slate-800" />
+
+        <!-- SEÇÃO 4: DESAFIO PRINCIPAL -->
+        <div>
+          <div class="flex items-center gap-2 mb-3">
+            <span class="flex items-center justify-center w-7 h-7 rounded-lg bg-purple-500/20 text-purple-400 font-bold text-xs border border-purple-500/30">4</span>
+            <h3 class="text-lg font-bold text-white">Descreva Seu Projeto ou Desafio Atual</h3>
+          </div>
+          <p class="text-xs text-gray-400 mb-2">Conte brevemente sobre o seu momento atual, gargalos operacionais ou o que você gostaria de construir.</p>
+          <textarea id="projectDescription" rows="4" placeholder="Exemplo: Preciso automatizar o atendimento ao cliente via WhatsApp integrado ao meu CRM e gerar relatórios automáticos no Google Sheets..."
+            class="custom-input w-full p-4 bg-slate-900/90 border border-slate-700/80 rounded-2xl text-white placeholder-gray-500 text-sm transition-all resize-none"></textarea>
+        </div>
+
+        <hr class="border-slate-800" />
+
+        <!-- SEÇÃO 5: URGÊNCIA DA IMPLEMENTAÇÃO -->
+        <div>
+          <div class="flex items-center gap-2 mb-4">
+            <span class="flex items-center justify-center w-7 h-7 rounded-lg bg-emerald-500/20 text-emerald-400 font-bold text-xs border border-emerald-500/30">5</span>
+            <h3 class="text-lg font-bold text-white">Previsão de Início / Urgência *</h3>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+            <div>
+              <input type="radio" id="urg-1" name="urgency" value="Urgente - Início Imediato" class="hidden urgency-radio" checked>
+              <label for="urg-1" class="flex items-center p-3 rounded-xl bg-slate-900/70 border border-slate-800 cursor-pointer hover:border-slate-700 transition-all">
+                <div class="w-4 h-4 rounded-full border border-gray-500 mr-3 flex items-center justify-center flex-shrink-0">
+                  <div class="radio-dot w-2 h-2 rounded-full transition-all"></div>
+                </div>
+                <div>
+                  <div class="text-xs font-bold text-white">Imediato / Este Mês</div>
+                  <div class="text-[11px] text-emerald-400 font-medium">Prioridade Alta ⚡</div>
+                </div>
+              </label>
+            </div>
+
+            <div>
+              <input type="radio" id="urg-2" name="urgency" value="Próximos 30-60 Dias" class="hidden urgency-radio">
+              <label for="urg-2" class="flex items-center p-3 rounded-xl bg-slate-900/70 border border-slate-800 cursor-pointer hover:border-slate-700 transition-all">
+                <div class="w-4 h-4 rounded-full border border-gray-500 mr-3 flex items-center justify-center flex-shrink-0">
+                  <div class="radio-dot w-2 h-2 rounded-full transition-all"></div>
+                </div>
+                <div>
+                  <div class="text-xs font-bold text-white">Próximos 30-60 Dias</div>
+                  <div class="text-[11px] text-gray-400">Planejamento em curso</div>
+                </div>
+              </label>
+            </div>
+
+            <div>
+              <input type="radio" id="urg-3" name="urgency" value="Apenas Cotando / Orçamento" class="hidden urgency-radio">
+              <label for="urg-3" class="flex items-center p-3 rounded-xl bg-slate-900/70 border border-slate-800 cursor-pointer hover:border-slate-700 transition-all">
+                <div class="w-4 h-4 rounded-full border border-gray-500 mr-3 flex items-center justify-center flex-shrink-0">
+                  <div class="radio-dot w-2 h-2 rounded-full transition-all"></div>
+                </div>
+                <div>
+                  <div class="text-xs font-bold text-white">Apenas Cotando</div>
+                  <div class="text-[11px] text-gray-400">Levantamento prévio</div>
+                </div>
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <!-- BOTÃO DE ENVIO & MICRO-COPY -->
+        <div class="pt-4">
+          <button type="submit" id="submitBtn"
+            class="w-full relative group overflow-hidden rounded-2xl bg-gradient-to-r from-emerald-500 via-teal-500 to-purple-600 p-0.5 font-bold text-white shadow-xl hover:shadow-emerald-500/25 transition-all duration-300 transform active:scale-[0.99]">
+            <span class="block px-8 py-4 rounded-[14px] bg-slate-950/20 group-hover:bg-transparent transition-colors text-center text-base sm:text-lg tracking-wide">
+              Garantir Meus 20% OFF Agora <i class="fa-solid fa-rocket ml-2 group-hover:translate-x-1 transition-transform inline-block"></i>
+            </span>
+          </button>
+
+          <!-- Micro-copy de Privacidade -->
+          <div class="mt-4 flex items-center justify-center gap-2 text-xs text-gray-400">
+            <i class="fa-solid fa-shield-halved text-emerald-400"></i>
+            <span>Seus dados estão 100% protegidos. Entraremos em contato em até 24 horas úteis.</span>
+          </div>
+        </div>
+
+      </form>
+    </div>
+
+    <!-- Footer Simple Copy -->
+    <div class="mt-8 text-center text-xs text-gray-500">
+      &copy; <span id="currentYear"></span> Soluções Digitais & Inteligência Artificial. Todos os direitos reservados.
+    </div>
+
+  </div>
+
+  <!-- SUCCESS MODAL -->
+  <div id="successModal" class="fixed inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-md opacity-0 pointer-events-none transition-opacity duration-300 p-4">
+    <div class="glass-card max-w-lg w-full rounded-3xl p-6 sm:p-8 border border-emerald-500/30 text-center shadow-2xl transform scale-95 transition-transform duration-300" id="modalCard">
+      
+      <!-- Icon Success -->
+      <div class="w-20 h-20 bg-emerald-500/20 border border-emerald-500/40 rounded-full flex items-center justify-center mx-auto mb-6 text-emerald-400 text-3xl animate-bounce">
+        <i class="fa-solid fa-circle-check"></i>
+      </div>
+
+      <!-- Modal Title -->
+      <h2 class="text-2xl sm:text-3xl font-extrabold text-white mb-2">Desconto Reservado com Sucesso! 🎉</h2>
+      
+      <p class="text-gray-300 text-sm mb-6 leading-relaxed">
+        Obrigado por registrar seu interesse. O seu cupom <strong class="text-emerald-400">BLACK20 (20% OFF)</strong> foi vinculado aos seus dados.
+      </p>
+
+      <!-- Lead Summary Card inside Modal -->
+      <div class="bg-slate-900/90 rounded-2xl p-4 text-left mb-6 text-xs text-gray-300 border border-slate-800 space-y-2">
+        <div class="flex justify-between border-b border-slate-800 pb-2">
+          <span class="text-gray-400">Nome:</span>
+          <span id="modalLeadName" class="font-semibold text-white">--</span>
+        </div>
+        <div class="flex justify-between border-b border-slate-800 pb-2">
+          <span class="text-gray-400">Empresa:</span>
+          <span id="modalLeadCompany" class="font-semibold text-white">--</span>
+        </div>
+        <div class="flex justify-between">
+          <span class="text-gray-400">Status Cupom:</span>
+          <span class="font-bold text-emerald-400">20% OFF Ativo</span>
+        </div>
+      </div>
+
+      <!-- WhatsApp Fast Contact CTA -->
+      <div class="space-y-3">
+        <a id="whatsappDirectBtn" href="#" target="_blank"
+          class="flex items-center justify-center gap-2 w-full py-3.5 px-6 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-extrabold text-sm transition-all shadow-lg shadow-emerald-500/20">
+          <i class="fa-brands fa-whatsapp text-lg"></i> Falar com um Especialista Agora no WhatsApp
+        </a>
+        <button onclick="closeModal()" class="w-full py-2.5 text-xs text-gray-400 hover:text-white transition-colors">
+          Fechar Janela
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- JAVASCRIPT LOGIC -->
+  <script>
+    // Set Current Year in Footer
+    document.getElementById('currentYear').textContent = new Date().getFullYear();
+
+    // 1. WhatsApp Masking Function
+    function formatWhatsApp(input) {
+      let value = input.value.replace(/\D/g, "");
+      if (value.length > 11) value = value.slice(0, 11);
+      
+      if (value.length > 2) {
+        value = `(${value.slice(0, 2)}) ${value.slice(2)}`;
+      }
+      if (value.length > 9) {
+        value = `${value.slice(0, 9)}-${value.slice(9)}`;
+      }
+      input.value = value;
+    }
+
+    // 2. Black November Countdown Timer Simulation
+    function startCountdown() {
+      // Set fixed target 12 days from now for demonstration
+      let targetDate = new Date();
+      targetDate.setDate(targetDate.getDate() + 12);
+
+      setInterval(() => {
+        const now = new Date().getTime();
+        const difference = targetDate - now;
+
+        if (difference > 0) {
+          const days = Math.floor(difference / (1000 * 60 * 60 * 24));
+          const hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+          const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
+          const seconds = Math.floor((difference % (1000 * 60)) / 1000);
+
+          document.getElementById('timer-days').textContent = days.toString().padStart(2, '0');
+          document.getElementById('timer-hours').textContent = hours.toString().padStart(2, '0');
+          document.getElementById('timer-mins').textContent = minutes.toString().padStart(2, '0');
+          document.getElementById('timer-secs').textContent = seconds.toString().padStart(2, '0');
+        }
+      }, 1000);
+    }
+    startCountdown();
+
+    // 3. Form Submission Handler
+    function handleFormSubmit(e) {
+      e.preventDefault();
+
+      const submitBtn = document.getElementById('submitBtn');
+      submitBtn.disabled = true;
+      submitBtn.innerText = "Processando Desconto...";
+
+      // Retrieve Data
+      const name = document.getElementById('fullName').value;
+      const email = document.getElementById('email').value;
+      const phone = document.getElementById('whatsapp').value;
+      const company = document.getElementById('companyName').value;
+      const role = document.getElementById('role').value;
+      const description = document.getElementById('projectDescription').value;
+
+      // Solutions Selected
+      const selectedSolutions = [];
+      document.querySelectorAll('.solution-checkbox:checked').forEach(cb => {
+        selectedSolutions.push(cb.value);
+      });
+
+      // Urgency Selected
+      const urgencyEl = document.querySelector('input[name="urgency"]:checked');
+      const urgency = urgencyEl ? urgencyEl.value : 'Não informado';
+
+      // Simulate API Payload dispatch
+      setTimeout(() => {
+        // Populate Modal Data
+        document.getElementById('modalLeadName').textContent = name;
+        document.getElementById('modalLeadCompany').textContent = company;
+
+        // Build Custom WhatsApp Message URL
+        const cleanPhone = phone.replace(/\D/g, "");
+        const waText = encodeURIComponent(
+          `Olá! Meu nome é ${name} da empresa ${company}.\n\n` +
+          `Acabei de preencher o formulário da *Black November (20% OFF)*!\n` +
+          `*Soluções de Interesse:* ${selectedSolutions.join(', ')}\n` +
+          `*Urgência:* ${urgency}\n` +
+          `*Cupom Aplicado:* BLACK20`
+        );
+        
+        // Link to representative (Replace with your actual business WhatsApp number)
+        const businessNumber = "5511999999999"; 
+        document.getElementById('whatsappDirectBtn').href = `https://wa.me/${businessNumber}?text=${waText}`;
+
+        // Open Modal
+        openModal();
+
+        // Reset Button
+        submitBtn.disabled = false;
+        submitBtn.innerHTML = `Garantir Meus 20% OFF Agora <i class="fa-solid fa-rocket ml-2"></i>`;
+      }, 1000);
+    }
+
+    // Modal Control Functions
+    function openModal() {
+      const modal = document.getElementById('successModal');
+      const modalCard = document.getElementById('modalCard');
+      modal.classList.remove('opacity-0', 'pointer-events-none');
+      modalCard.classList.remove('scale-95');
+      modalCard.classList.add('scale-100');
+    }
+
+    function closeModal() {
+      const modal = document.getElementById('successModal');
+      const modalCard = document.getElementById('modalCard');
+      modal.classList.add('opacity-0', 'pointer-events-none');
+      modalCard.classList.remove('scale-100');
+      modalCard.classList.add('scale-95');
+    }
+  </script>
+</body>
+</html>

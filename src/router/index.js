@@ -32,6 +32,17 @@ const routes = [
     }
   },
   {
+    path: '/black-november',
+    name: 'black-november',
+    component: () => import('../views/BlackNovemberView.vue'),
+    meta: {
+      title: 'Black November 20% OFF | CodeWil',
+      description:
+        'Solicite uma proposta para automações, inteligência artificial, sistemas web e integrações com 20% de desconto.',
+      canonical: SITE_URL + '/black-november'
+    }
+  },
+  {
     path: '/blog',
     name: 'blog',
     component: BlogView,
