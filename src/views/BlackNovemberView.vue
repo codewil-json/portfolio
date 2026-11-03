@@ -434,12 +434,34 @@ export default {
   --muted: #9aa5b7;
   position: relative;
   display: flex;
-  min-height: 100vh;
-  overflow: hidden;
+  box-sizing: border-box;
+  height: 100vh;
+  height: 100dvh;
+  overflow-x: hidden;
+  overflow-y: auto;
   padding: 48px 20px 24px;
   color: #f8fafc;
   background: var(--page-bg);
   font-family: 'Geist', sans-serif;
+  scrollbar-color: var(--page-bg) var(--page-bg);
+  scrollbar-width: thin;
+
+  &::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: var(--page-bg);
+  }
+
+  &::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background: var(--page-bg);
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background: #111827;
+  }
 
   .glow {
     position: absolute;
